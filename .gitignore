@@ -1,3 +1,7 @@
+# python virtual environments
 .venv/
 venv/
+# Python compile cache
 __pycache__/
+# environmental variables (can contain secrets)
+.env
