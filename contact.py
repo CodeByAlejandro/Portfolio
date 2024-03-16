@@ -80,7 +80,7 @@ class ContactHandler():
             self.app.logger.error(error_msg)
         else:
             send_result = True
-            self.app.logger.info("Succesfully send mail for: " + request.form["email"])
+            self.app.logger.info("Succesfully send mail for: " + self.email)
         return render_template("contact.html", send_result=send_result)
 
     def _write_to_text_File(self) -> str:
