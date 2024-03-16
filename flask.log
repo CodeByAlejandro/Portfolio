@@ -1,0 +1,45 @@
+[2024-03-13 23:25:53,505] ERROR: An error occurred while attempting to send mail: smtplib.SMTPRecipientsRefused: {}
+[2024-03-13 23:31:06,431] ERROR: An error occurred while attempting to send mail: Environmental variable 'GOOGLE_APP_PASSWORD' not set!
+[2024-03-13 23:37:06,232] INFO: Succesfully send mail for: codebyalejandro@gmail.com
+[2024-03-13 23:39:12,397] INFO: Succesfully send mail for: 
+[2024-03-13 23:55:41,628] ERROR: An error occurred while attempting to send mail: Please provide your email address!
+[2024-03-13 23:56:16,750] ERROR: An error occurred while attempting to send mail: Please provide a subject!
+[2024-03-13 23:56:23,313] ERROR: An error occurred while attempting to send mail: Please provide a meaningful message!
+[2024-03-13 23:57:18,340] ERROR: An error occurred while attempting to send mail: Please provide your email address!
+[2024-03-13 23:57:35,568] INFO: Succesfully send mail for: alejandrodegroote@outlook.com
+[2024-03-13 23:58:36,662] ERROR: An error occurred while attempting to send mail: smtplib.SMTPRecipientsRefused: {}
+[2024-03-13 23:58:56,774] INFO: Succesfully send mail for: codebyalejandro@gmail.com
+[2024-03-14 23:28:46,115] INFO: Succesfully send mail for: codebyalejandro@gmail.com
+[2024-03-14 23:46:25,189] INFO: Succesfully send mail for: alejandrodegroote@outlook.com
+[2024-03-15 21:02:01,563] INFO: Succesfully send mail for: alejandrodegroote@outlook.com
+[2024-03-15 21:02:48,974] INFO: Succesfully send mail for: alejandrodegroote@outlook.com
+[2024-03-16 01:09:14,206] INFO: Succesfully send mail for: codebyalejandro@gmail.com
+[2024-03-16 01:09:58,084] INFO: Succesfully send mail for: codebyalejandro@gmail.com
+[2024-03-16 01:10:41,921] ERROR: An error occurred while attempting to send mail: smtplib.SMTPRecipientsRefused: {}
+[2024-03-16 01:26:14,459] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 01:26:53,610] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 01:30:13,714] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 01:53:31,676] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 01:54:55,616] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:01:23,078] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:02:51,989] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:03:24,966] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:07:34,439] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:08:26,343] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:13:47,297] INFO: Succesfully wrote to CSV database: CSV_database.csv
+[2024-03-16 02:22:40,227] INFO: Succesfully wrote to CSV database: CSV_database.csv
+[2024-03-16 02:23:39,686] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:28:22,084] INFO: Succesfully wrote to text database: text_database.txt
+[2024-03-16 02:29:16,460] INFO: Succesfully send mail for: codebyalejandro@gmail.com
+[2024-03-16 02:40:58,043] ERROR: An error occurred while attempting to write to text database: builtins.PermissionError: [Errno 13] Permission denied: 'database/text_database.txt'
+[2024-03-16 02:44:38,950] INFO: Succesfully wrote to text database: database/text_database.txt
+[2024-03-16 02:45:02,747] INFO: Succesfully wrote to text database: database/text_database.txt
+[2024-03-16 02:45:39,512] INFO: Succesfully wrote to CSV database: database/CSV_database.csv
+[2024-03-16 02:45:57,043] INFO: Succesfully wrote to CSV database: database/CSV_database.csv
+[2024-03-16 03:13:57,266] INFO: Succesfully wrote to text database: database/text_database.txt
+[2024-03-16 03:14:29,191] INFO: Succesfully wrote to text database: database/text_database.txt
+[2024-03-16 03:15:09,357] INFO: Succesfully wrote to CSV database: database/CSV_database.csv
+[2024-03-16 03:15:38,703] INFO: Succesfully wrote to CSV database: database/CSV_database.csv
+[2024-03-16 03:32:33,569] INFO: Succesfully send mail for: alejandrodegroote@outlook.com
+[2024-03-16 03:36:01,044] INFO: Succesfully send mail for: codebyalejandro@gmail.com
+[2024-03-16 03:38:33,624] INFO: Succesfully send mail for: alejandrodegroote@outlook.com
