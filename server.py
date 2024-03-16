@@ -9,7 +9,7 @@ app = Flask(__name__)
 ### Routing ###
 @app.route("/")
 def index():
-    return redirect(url_for("load_page", page="index"))
+    return redirect(url_for("load_page", page_name="index"))
 
 
 @app.route("/<string:page_name>")
