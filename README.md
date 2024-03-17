@@ -36,7 +36,7 @@ import sys
 ## "git clone git@github.com/myusername/myproject.git"
 ## ...or uploaded files to the directory "myproject", then you should
 ## specify "/home/CodeByAlejandro/myproject"
-path = '/home/CodeByAlejandro/portfolio'
+path = '/home/CodeByAlejandro/Portfolio'
 if path not in sys.path:
     sys.path.append(path)
 
