@@ -1,5 +1,15 @@
-# portfolio
+# Portfolio
 Flask portfolio created during Python course (The Complete Python Developer - zerotomastery.io)
+
+# Installation
+Install in virtual environment using following commands:
+```shell
+git clone https://github.com/CodeByAlejandro/Portfolio.git
+cd Portfolio
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+```
 
 # Configuration required for `Pythonanywhere`
 ## Environmental variables
