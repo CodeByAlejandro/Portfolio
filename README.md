@@ -21,7 +21,7 @@ Source this `.env` file:
 ```shell
 . .env
 ```
-## Local startup
+## Startup
 You can start a local Flask server in debug mode with the following command:
 ```shell
 ./start_flask.sh
@@ -45,7 +45,6 @@ if __name__ == '__main__':
 The clever little if is needed for compatibility with pythonanywhere as it will check if the Flask server is started from pythonanywhere
 
 # Local uninstall
-# Uninstall
 Deactivate the virtual environment using the exported shell function `deactivate`:
 ```shell
 deactivate
