@@ -19,7 +19,7 @@ This is the google app password for CodeByAlejandro@gmail.com and is needed to a
 # Set my own custom environmental variables for my web-app
 import os
 from dotenv import load_dotenv
-project_folder = os.path.expanduser('~/portfolio')
+project_folder = os.path.expanduser('~/Portfolio')
 load_dotenv(os.path.join(project_folder, '.env'))
 
 # +++++++++++ FLASK +++++++++++
