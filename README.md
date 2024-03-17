@@ -11,6 +11,51 @@ python3 -m venv .venv
 pip install -r requirements.txt
 ```
 
+# Local usage
+## Environmental variables
+Create `.env` file in project dir with following config:
+```shell
+export GOOGLE_APP_PASSWORD='google_app_passw_here'
+```
+Source this `.env` file:
+```shell
+. .env
+```
+## Local startup
+You can start a local Flask server in debug mode with the following command:
+```shell
+./start_flask.sh
+```
+or start it yourself using:
+```shell
+flask --app server.py run --debug
+```
+> [!NOTE]
+> Debug mode is usefull when working on the code, since it will automatically refresh the server on code changes.
+Alternatively you can also start the Flask server from the python module itself by adding the following code:
+```python
+from socket import gethostname
+[...]
+
+if __name__ == '__main__':
+    # Do whatever initialization you need here, e.g. `db.create_all()`
+    if 'liveconsole' not in gethostname():
+        app.run()
+```
+The clever little if is needed for compatibility with pythonanywhere as it will check if the Flask server is started from pythonanywhere
+
+# Local uninstall
+# Uninstall
+Deactivate the virtual environment using the exported shell function `deactivate`:
+```shell
+deactivate
+```
+Remove the project:
+```shell
+cd ..
+rm -rf Portfolio
+```
+
 # Configuration required for `Pythonanywhere`
 ## Environmental variables
 Create `.env` file in project dir with following config:
